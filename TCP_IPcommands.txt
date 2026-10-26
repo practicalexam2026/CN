@@ -1,0 +1,25 @@
+1. ipconfig - Displays IP address, subnet mask, and default gateway.
+
+2. ping - Checks network connectivity between two devices.
+	USE: ping google.com
+
+3. tracert - Displays the route taken by packets to reach a destination.
+	USE: tracert google.com
+
+4. netstat - Displays active network connections and listening ports.
+	If want PID also then use :- netstat -ano
+
+5. nslookup - Finds the IP address of a domain name using DNS.
+	USE: nslookup google.com
+
+6. hostname - Displays the computer's network name.
+
+
+7. arp -a - Displays the ARP table containing IP and MAC address mappings.
+
+8. getmac - Displays the MAC addresses of network adapters.
+
+9. ipconfig /all - Displays detailed TCP/IP configuration of all network adapters.
+
+10. pathping - Analyzes the route to a destination and checks packet loss.
+	USE: pathping google.com
